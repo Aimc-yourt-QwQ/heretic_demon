@@ -34,3 +34,9 @@ npm i -g @iflow-ai/iflow-cli@latest
 npm install -g @google/gemini-cli
 
 ln -s $PREFIX $HOME
+cp $HOME/heretic_demon/colors.properties $HOME/.termux/
+cp $HOME/heretic_demon/termux.properties $HOME/.termux/
+cp $HOME/heretic_demon/font/ComicShannsMonoNerdFontMono-Bold.otf $HOME/.termux/font.ttf
+cat >$HOME/.bashrc <<'EOF'
+exec fish
+EOF
