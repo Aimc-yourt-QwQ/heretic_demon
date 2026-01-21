@@ -37,6 +37,7 @@ ln -s $PREFIX $HOME
 cp $HOME/heretic_demon/colors.properties $HOME/.termux/
 cp $HOME/heretic_demon/termux.properties $HOME/.termux/
 cp $HOME/heretic_demon/font/ComicShannsMonoNerdFontMono-Bold.otf $HOME/.termux/font.ttf
+cp $HOME/heretic_demon/wallpaper/back.jpg $HOME/.img/
 cat >$HOME/.bashrc <<'EOF'
 exec fish
 EOF
