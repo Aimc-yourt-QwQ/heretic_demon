@@ -4,5 +4,5 @@
 ---
 **我希望使用者有一定的文件管理基础**
 ---
-![截图](raw.https://github.com/Aimc-yourt-QwQ/heretic_demon/tree/main/images/file.jpg)
+![截图](https://github.com/Aimc-yourt-QwQ/heretic_demon/tree/main/file.jpg)
 
