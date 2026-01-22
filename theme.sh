@@ -16,3 +16,4 @@ cp $HOME/heretic_demon/wallpaper/back.jpg $HOME/.img/
 cat >$HOME/.bashrc <<'EOF'
 exec fish
 EOF
+apt install eza fish -y
