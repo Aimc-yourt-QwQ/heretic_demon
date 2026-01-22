@@ -29,4 +29,4 @@ cd heretic_demon&& bash endl.sh
 ```
 
 **再次重启，基本环境就好了**
-
+**tip : 大小差不多3.5Gww**
