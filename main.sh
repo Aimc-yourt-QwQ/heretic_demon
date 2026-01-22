@@ -9,8 +9,7 @@ EOF
 
 apt update
 yes | apt upgrade
-apt install fish nmap fzf wget unzip fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch gh proot proot-distro clang sqlite golang rust php ruby bc ffmpeg nginx chafa -y
-apt install oh-my-posh dotnet9.0 python python-pip openjdk-25 build-essential cmake ninja gettext libtool autoconf automake doxygen ncurses-utils gperf pkg-config glow lua53 lua52 lua51 nodejs-lts neovim -y
+apt install fish nmap fzf wget unzip fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch gh proot proot-distro clang sqlite golang rust php ruby bc ffmpeg nginx chafa oh-my-posh dotnet9.0 python python-pip openjdk-25 build-essential cmake ninja gettext libtool autoconf automake doxygen ncurses-utils gperf pkg-config glow lua53 lua52 lua51 nodejs-lts neovim eza -y
 wget -q -O - http://ohmyposh.dev/install.sh | bash
 gem install lolcat
 
