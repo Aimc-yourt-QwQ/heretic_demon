@@ -31,9 +31,23 @@ cd heretic_demon&& bash endl.sh
 ```
 
 **再次重启，基本环境就好了**  
-**tip : 大小差不多3.5Gww**  
+**tip : 大小差不多3.5G**  
 
 ---
 
-**仓库里面还有一些文件，自己折腾**
+## GPT要我改的地方，脚本行为说明
+- **会装哪些包？不统计依赖数量**
+```
+lolcat @iflow-ai/iflow-cli@latest @google/gemini-cli fish nmap fzf wget unzip fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch gh proot proot-distro clang sqlite golang rust php ruby bc ffmpeg nginx chafa oh-my-posh dotnet9.0 python python-pip openjdk-25 build-essential cmake ninja gettext libtool autoconf automake doxygen ncurses-utils gperf pkg-config glow lua53 lua52 lua51 nodejs-lts neovim eza
+```
+
+- **会改哪些路径？**
+
+这要看是怎么定义的
+
+## 其他文件说明：
+
+- **theme.sh：** **最小化，仅安装美化和fish**  
+- **nvim目录：** **我自己的nvim一些文件**  
+- **fastfetch目录：** **配置文件，默认不使用**  
 
