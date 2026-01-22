@@ -5,6 +5,8 @@
 **不过我希望使用者有一定的文件管理基础**
 
 ![截图](https://raw.githubusercontent.com/Aimc-yourt-QwQ/heretic_demon/main/file.jpg)
+### 画世界pro高斯模糊太好用了你们知道吗？
+
 ## 配置步骤
 
 在一个**全新**的ZeroTermux环境：
