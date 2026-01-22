@@ -23,7 +23,7 @@ cd heretic_demon
 bash main.sh
 ```
 
-**脚本结束之后重启zTermux：
+**脚本结束之后重启zTermux：**
 ```bash
 cd heretic_demon&& bash endl.sh
 ```
