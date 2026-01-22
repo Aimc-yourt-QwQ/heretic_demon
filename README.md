@@ -28,4 +28,5 @@ bash main.sh
 cd heretic_demon&& bash endl.sh
 ```
 
+**再次重启，基本环境就好了**
 
