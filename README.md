@@ -12,7 +12,7 @@
 在一个**全新**的ZeroTermux环境：
 
 ```bash
-apt update&& apt install git&& git clone https://github.com/Aimc-yourt-QwQ/heretic_demon.git
+apt update&& apt install git -y&& git clone https://github.com/Aimc-yourt-QwQ/heretic_demon.git
 ```
 
 **tip : 我推荐使用apt作为包管理器**
