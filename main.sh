@@ -9,10 +9,8 @@ EOF
 
 apt update
 yes | apt upgrade
-apt install nmap fzf wget unzip fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch gh proot proot-distro clang sqlite golang rust php ruby bc ffmpeg nginx chafa -y
-apt install oh-my-posh -y
-sleep 1
-apt install dotnet9.0 python python-pip openjdk-25 build-essential cmake ninja gettext libtool autoconf automake doxygen ncurses-utils gperf pkg-config glow lua53 lua52 lua51 nodejs-lts neovim -y
+apt install fish nmap fzf wget unzip fd nodejs zoxide tree htop openssh tig bat ripgrep jq yq curl ncdu tmux gdb neofetch gh proot proot-distro clang sqlite golang rust php ruby bc ffmpeg nginx chafa -y
+apt install oh-my-posh dotnet9.0 python python-pip openjdk-25 build-essential cmake ninja gettext libtool autoconf automake doxygen ncurses-utils gperf pkg-config glow lua53 lua52 lua51 nodejs-lts neovim -y
 wget -q -O - http://ohmyposh.dev/install.sh | bash
 gem install lolcat
 
@@ -23,14 +21,18 @@ rm -rf $HOME/fastfetch
 neofetch
 
 clear
-mkdir $HOME/img
+mkdir $HOME/.img
+
 while true; do
   if git clone https://github.com/LazyVim/starter ~/.config/nvim; then
     break
   fi
 done
-export GYP_DEFINES="android_ndk_path=''"
+echo "1"
+sleep 4
+
 npm i -g @iflow-ai/iflow-cli@latest
+export GYP_DEFINES="android_ndk_path=''"
 npm install -g @google/gemini-cli
 
 ln -s $PREFIX $HOME
